@@ -1,0 +1,17 @@
+CCD_DOCKER_PATH=/Users/transform/hmcts/ccd-docker
+TEST_E2E_URL_GATEWAY=http://localhost:3453
+TEST_E2E_URL_WEB=http://localhost:3451
+TEST_E2E_USE_PROXY=false
+TEST_CASEOFFICER_USERNAME=ia-caseofficer@fake.hmcts.net
+TEST_CASEOFFICER_PASSWORD=London01
+TEST_JUDICIARY_USERNAME=ia-judiciary@fake.hmcts.net
+TEST_JUDICIARY_PASSWORD=London02
+TEST_LAW_FIRM_A_USERNAME=ia-law-firm-a@fake.hmcts.net
+TEST_LAW_FIRM_A_PASSWORD=London03
+TEST_LAW_FIRM_B_USERNAME=ia-law-firm-b@fake.hmcts.net
+TEST_LAW_FIRM_B_PASSWORD=London04
+ADDRESS_LOOKUP_TOKEN=f7aca590ce1da8c64c9ed11b9678265f86f81209
+IA_IDAM_ID=ccd_gateway
+IA_IDAM_SECRET=OOOOOOOOOOOOOOOO
+IA_IDAM_REDIRECT_URI=http://localhost:3451/oauth2redirect
+S2S_MICROSERVICE=ccd_gw
