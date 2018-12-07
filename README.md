@@ -1,3 +1,27 @@
+
+================================================================
+# HMCTS
+================================================================
+
+This has been adapted from the Hortonworks protractor environment to work with HMCTS CCD.
+
+Steps:
+
+- Ensure that ccd-docker is running along with ia-case-api
+- Add any environment variables required for running your tests should be put into (in the project root directory):
+    envfile 
+- There is a Makefile which contains the relevant commands to build and run your tests.
+- Configure the variable PROJECT_LOC in Makefile to point to your protractor project root directory
+
+- To build the image go to the project root: 
+    make build
+- To run the container and tests: 
+    make run
+
+See below for any other details provided by Hortonworks.
+
+================================================================
+
 **General Docker image for executing headless Google Chrome or Firefox Protractor tests cases with TypeScript. The created image does not contain any test code or project. This is the environment for running test cases.**
 
 # To run your test cases in this image
